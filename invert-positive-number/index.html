@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Invert Positive Number</title>
+        <script>
+
+            // Build a function, invert_negatives, that takes a number as a parameter, and if the number is positive, it makes it negative. If it isn't a number, it returns false
+
+            function invert_negatives(num){
+                if(num > 0){
+                    return num * -1;
+                } else if(num < 0) {
+                    return num;
+                } else {
+                    return false;
+                }
+            }
+
+            console.log(invert_negatives(100));
+            console.log(invert_negatives(-75));
+            console.log(invert_negatives('puppies'));
+
+        </script>
+    </head>
+    <body>
+    </body>
+</html>

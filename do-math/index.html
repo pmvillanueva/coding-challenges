@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Do Math</title>
+        <script>
+
+            // var mathResult = do_Math(5, 2, '/');
+            // console.log(mathResult);
+            
+            function do_math(num1, num2, operator) {
+                switch(operator){
+                    case '+':
+                        var result = num1 + num2;
+                        break;
+                    case '-':
+                        var result = num1 - num2;
+                        break;
+                    case '*':
+                        var result = num1 * num2;
+                        break;
+                    case '/':
+                        var result = num1 / num2;
+                        break;
+                    default:
+                        break;
+                }
+                return result;
+            }
+
+            var mathResult = do_math(10, 2, '-');
+            console.log(mathResult);
+
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
